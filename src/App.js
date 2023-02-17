@@ -5,9 +5,10 @@ import "./App.css";
 function App() {
   return (
     <Box width="400px">
-      Navbar
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/exercise/:id" element={<ExerciseDetail />} />
       </Routes>
     </Box>
   );

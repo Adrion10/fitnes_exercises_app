@@ -1,6 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import { Box } from "@mui/material";
 import "./App.css";
+import Home from "./pages/Home";
+import ExerciseDetail from "./pages/ExerciseDetail";
+import Navbar from "./pages/Navbar";
 
 function App() {
   return (

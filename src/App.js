@@ -3,8 +3,8 @@ import { Box } from "@mui/material";
 import "./App.css";
 import Home from "./pages/Home";
 import ExerciseDetail from "./pages/ExerciseDetail";
-import Navbar from "./pages/Navbar";
-import Footer from "./pages/Footer";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (

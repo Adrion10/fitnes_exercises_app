@@ -15,6 +15,9 @@ const Navbar = () => {
       </Link>
       <Stack>
         <Link to="/">Home</Link>
+        <a href="exercise" style={{ textDecoration: "nome", color: "#3A1212" }}>
+          Exercises
+        </a>
       </Stack>
     </Stack>
   );

@@ -7,7 +7,11 @@ const Navbar = () => {
   return (
     <Stack>
       <Link to="/">
-        <img src={Logo} alt={Logo} />
+        <img
+          src={Logo}
+          alt="logo"
+          style={{ width: "48px", height: "48px", margin: "0 20px" }}
+        />
       </Link>
     </Stack>
   );

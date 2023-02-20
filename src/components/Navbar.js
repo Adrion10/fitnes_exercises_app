@@ -5,7 +5,11 @@ import Logo from "../assets/images/Logo.png";
 
 const Navbar = () => {
   return (
-    <Stack>
+    <Stack
+      direction="row"
+      justifyContent="space-around"
+      sx={{ gap: { sm: "122px", xs: "40px" }, mt: { sm: "32px", sx: "20px" } }}
+    >
       <Link to="/">
         <img
           src={Logo}

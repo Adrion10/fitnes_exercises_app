@@ -4,7 +4,7 @@ import { Box, Stack, Typegraphy } from "@mui/material";
 const HeroBanner = () => {
   return (
     <Box>
-      <Typegraphy></Typegraphy>
+      <Typegraphy color="#FF2625" fontWeight="600" fontSize="26px"></Typegraphy>
     </Box>
   );
 };

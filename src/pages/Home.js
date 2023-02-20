@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import { Box } from "@mui/material";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <Box>
+      <HeroBaner />
+      <SearchExercises />
+      <Exercises />
+    </Box>
+  );
 };
 
 export default Home;

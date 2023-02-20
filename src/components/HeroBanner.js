@@ -17,6 +17,7 @@ const HeroBanner = () => {
       <Typography>
         Sweat Smile <br /> and Repeat
       </Typography>
+      <Typography>Check out the most effective exercises</Typography>
     </Box>
   );
 };

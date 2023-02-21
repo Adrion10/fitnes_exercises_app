@@ -24,6 +24,13 @@ const HeroBanner = () => {
       <Button variant="contained" color="error" herf="#exercises">
         Explore Exercises
       </Button>
+      <Typography
+        fontweight={600}
+        color="#ff2625"
+        sx={{ opacity: 0.1, display: { lg: "block", xs: "none" } }}
+      >
+        Exercises
+      </Typography>
       <img src={HeroBannerImage} alt="banner" className="hero-banner-img" />
     </Box>
   );

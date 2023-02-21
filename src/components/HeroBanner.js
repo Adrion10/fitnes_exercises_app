@@ -14,7 +14,7 @@ const HeroBanner = () => {
       <Typography color="#FF2625" fontWeight="600" fontSize="26px">
         Fitness Club
       </Typography>
-      <Typography>
+      <Typography fontWeight={700} sx={{ fontSize: { lg: "44", xs: "40" } }}>
         Sweat Smile <br /> and Repeat
       </Typography>
       <Typography>Check out the most effective exercises</Typography>

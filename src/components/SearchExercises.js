@@ -17,7 +17,7 @@ const SearchExercises = () => {
         <TextField
           sx={{
             input: { fontWeight: "700", border: "none", borderRadius: "4px" },
-            width: { lg: "1170px", xs: "350px" },
+            width: { lg: "800px", xs: "350px" },
             backgroundColor: "#fff",
             borderRadius: "40px",
           }}
@@ -33,7 +33,7 @@ const SearchExercises = () => {
             bgcolor: "#ff2525",
             color: "#fff",
             textTransform: "none",
-            width: { lg: "20px", xs: "14px" },
+            width: { lg: "60px", xs: "30px" },
             height: "56px",
             position: "absolute",
           }}

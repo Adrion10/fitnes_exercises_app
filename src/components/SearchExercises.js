@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Stack, Box, Buttom, TextField, Typography } from "@mui/material";
+import { Stack, Box, Button, TextField, Typography } from "@mui/material";
 const SearchExercises = () => {
   return (
     <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
@@ -27,6 +27,17 @@ const SearchExercises = () => {
           placeholder="Search Exercises"
           type="text"
         />
+        <Button
+          className="search-btn"
+          sx={{
+            bgcolor: "#ff2525",
+            color:'#fff',
+            textTransform:'none',
+            width:{lg:'20px', xs:'14px'
+          }}
+        >
+          Search
+        </Button>
       </Box>
     </Stack>
   );

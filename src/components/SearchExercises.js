@@ -6,8 +6,10 @@ const SearchExercises = () => {
       <Typography
         fontWeight={700}
         sx={{
-          fontSize: { lg: "44px" },
+          fontSize: { lg: "44px", xs: "30px" },
         }}
+        mb="50px"
+        textAlign="center"
       >
         Awesome Exercise You <br /> Should now
       </Typography>

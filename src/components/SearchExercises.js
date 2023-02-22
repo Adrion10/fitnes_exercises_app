@@ -31,9 +31,11 @@ const SearchExercises = () => {
           className="search-btn"
           sx={{
             bgcolor: "#ff2525",
-            color:'#fff',
-            textTransform:'none',
-            width:{lg:'20px', xs:'14px'
+            color: "#fff",
+            textTransform: "none",
+            width: { lg: "20px", xs: "14px" },
+            height: "56px",
+            position: "absolute",
           }}
         >
           Search

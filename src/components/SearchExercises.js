@@ -40,6 +40,7 @@ const SearchExercises = () => {
             position: "absolute",
             right: "0",
           }}
+          onClick={handleSearch}
         >
           Search
         </Button>

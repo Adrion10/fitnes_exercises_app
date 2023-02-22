@@ -13,6 +13,9 @@ const SearchExercises = () => {
       >
         Awesome Exercise You <br /> Should now
       </Typography>
+      <Box position="relative" mb="72px">
+        <TextField />
+      </Box>
     </Stack>
   );
 };

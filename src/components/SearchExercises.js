@@ -12,8 +12,9 @@ const SearchExercises = () => {
         exerciseOptions
       );
       const searchExercises = exerciseData.filter((exercise) =>
-        exercise.name.toLowerCase().includes(search)
-      );
+        exercise.name.toLowerCase().includes(search)||
+        exercise.target.toLowerCase().includes(search)||exercise.equipment.toLowerCase().includes(search)||exercise.baddyPart.toLowerCase().includes(search)||
+      )
     }
   };
   return (

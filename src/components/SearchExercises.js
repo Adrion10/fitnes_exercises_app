@@ -7,7 +7,10 @@ const SearchExercises = () => {
 
   const handleSearch = async () => {
     if (search) {
-      const exerciseData = await fetchData();
+      const exerciseData = await fetchData(
+        "https://exercisedb.p.rapidapi.com/exercises/bodyPartList",
+        exerciseOptions
+      );
     }
   };
   return (

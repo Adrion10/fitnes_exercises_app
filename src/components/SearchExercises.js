@@ -11,6 +11,9 @@ const SearchExercises = () => {
         "https://exercisedb.p.rapidapi.com/exercises/bodyPartList",
         exerciseOptions
       );
+      const searchExercises = exerciseData.filter((exercise) =>
+        exercise.name.toLowerCase().includes(search)
+      );
     }
   };
   return (

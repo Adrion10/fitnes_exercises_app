@@ -9,7 +9,9 @@ const HorizontalScrollbar = ({ data }) => {
           itemId={item.id || item}
           title={item.id || item}
           m="0 40px"
-        ></Box>
+        >
+          {item}
+        </Box>
       ))}
     </div>
   );

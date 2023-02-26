@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@mui/material";
-import BodyPart from "../components/BodyPart";
+import BodyPart from "./BodyPart";
 
 const HorizontalScrollbar = ({ data }) => {
   return (

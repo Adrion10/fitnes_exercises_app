@@ -13,6 +13,8 @@ const LeftArrow = () => {
     </Typography>
   );
 };
+const RightArrow = () => {
+  const { scrollNext } = useContext(VisibilityContext);
 
 const HorizontalScrollbar = ({ data, bodyPart, setBodyPart }) => {
   return (

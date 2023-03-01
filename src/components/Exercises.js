@@ -7,6 +7,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   return (
     <Box id="exercises" sx={{ mt: { lg: "110px" } }} mt="50px" p="20px">
       <Typography varianat="h4">Showing Results</Typography>
+      <Stack direction="row" sx={{ gap: { lg: "110px", xs: "50px" } }}></Stack>
     </Box>
   );
 };

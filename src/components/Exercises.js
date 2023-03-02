@@ -7,6 +7,10 @@ import ExerciseCard from "./ExerciseCard";
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const exercisePerPage = 9;
+  const paginate = (e, value) => {
+    setCurrentPage(value);
+  };
+
   return (
     <Box id="exercises" sx={{ mt: { lg: "110px" } }} mt="50px" p="20px">
       <Typography varianat="h4">Showing Results</Typography>
@@ -28,7 +32,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
             defaultPage={1}
             count={Math.ceil(exercises.length / exercisePerPage)}
             page={currentPage}
-            onChange={paginate}
+            onChange={(e) => paginate(e, value)}
             size="large"
           />
         )}

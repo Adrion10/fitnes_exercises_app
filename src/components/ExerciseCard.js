@@ -19,6 +19,18 @@ const ExerciseCard = ({ exercise }) => {
         >
           {exercise.bodyPart}
         </Button>
+        <Button
+          sx={{
+            ml: "21px",
+            color: "#fff",
+            background: "#fcc757",
+            fontSize: "14px",
+            borderRadius: "20px",
+            textTransform: "capitalize",
+          }}
+        >
+          {exercise.target}
+        </Button>
       </Stack>
     </Link>
   );

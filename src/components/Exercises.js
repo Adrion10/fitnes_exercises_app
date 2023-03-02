@@ -9,6 +9,8 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const exercisePerPage = 9;
   const paginate = (e, value) => {
     setCurrentPage(value);
+
+    window.scrollTo({ top: 1800, behavior: "smooth" });
   };
 
   return (

@@ -7,6 +7,7 @@ import ExerciseCard from "./ExerciseCard";
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const exercisePerPage = 9;
+  const indexOfLastExercise = currentPage * exercisePerPage;
   const paginate = (e, value) => {
     setCurrentPage(value);
 

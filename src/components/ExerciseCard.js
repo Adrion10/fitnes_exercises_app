@@ -32,6 +32,7 @@ const ExerciseCard = ({ exercise }) => {
           {exercise.target}
         </Button>
       </Stack>
+      <Typography>{exercise.name}</Typography>
     </Link>
   );
 };

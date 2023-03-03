@@ -45,4 +45,5 @@ const Navbar = () => (
     </Stack>
   </Stack>
 );
+
 export default Navbar;

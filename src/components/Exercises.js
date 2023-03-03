@@ -9,6 +9,11 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const exercisePerPage = 9;
   const indexOfLastExercise = currentPage * exercisePerPage;
   const indexOfFirstExercise = indexOfLastExercise - exercisePerPage;
+  const currentExercise = exercises.slice(
+    indexOfFirstExercise,
+    indexOfLastExercise,
+    indexOfLastExercise
+  );
   const paginate = (e, value) => {
     setCurrentPage(value);
 
@@ -24,7 +29,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
         flexWrap="wrap"
         justifyContent="center"
       >
-        {exercises.map((exercise, index) => (
+        {currentExercise.map((exercise, index) => (
           <ExerciseCard key={index} exercise={exercise} />
         ))}
       </Stack>

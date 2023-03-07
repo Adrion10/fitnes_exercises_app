@@ -8,7 +8,13 @@ const ExerciseDetail = () => {
   const [exerciseDetail, setExerciseDetail] = useState({});
   const { id } = useParams();
 
-  return <Box sx={{ mt: { lg: "96px", xs: "60px" } }}></Box>;
+  return (
+    <Box sx={{ mt: { lg: "96px", xs: "60px" } }}>
+      <Detail />
+      <ExerciseDetail />
+      <SimilarExercise />
+    </Box>
+  );
 };
 
 export default ExerciseDetail;

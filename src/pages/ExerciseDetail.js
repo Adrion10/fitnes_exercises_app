@@ -6,6 +6,7 @@ import { exerciseOptions, fetchData } from "../utils/fetchData";
 
 const ExerciseDetail = () => {
   const [exerciseDetail, setExerciseDetail] = useState({});
+  const { id } = useParams();
 
   return <div>ExerciseDetail</div>;
 };

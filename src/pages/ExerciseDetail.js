@@ -10,7 +10,13 @@ import SimilarExercises from "../components/SimilarExercises";
 const ExerciseDetail = () => {
   const [exerciseDetail, setExerciseDetail] = useState({});
   const { id } = useParams();
-  
+
+  useEffect(() =>{
+    const fetchExercisesData= async()=>{
+      
+    }
+
+  },[id] )
 
   return (
     <Box sx={{ mt: { lg: "96px", xs: "60px" } }}>

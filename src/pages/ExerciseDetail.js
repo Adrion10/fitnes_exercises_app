@@ -10,10 +10,11 @@ import SimilarExercises from "../components/SimilarExercises";
 const ExerciseDetail = () => {
   const [exerciseDetail, setExerciseDetail] = useState({});
   const { id } = useParams();
+  
 
   return (
     <Box sx={{ mt: { lg: "96px", xs: "60px" } }}>
-      <Detail />
+      <Detail exerciseDetail={}/>
       <ExerciseVideo />
       <SimilarExercises />
     </Box>

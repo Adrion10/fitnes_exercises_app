@@ -13,8 +13,10 @@ const ExerciseDetail = () => {
 
   useEffect(() =>{
     const fetchExercisesData= async()=>{
-      
+      const exerciseDbUrl='https://exercisedb.p.rapidapi.com/'
+
     }
+    fetchExercisesData()
 
   },[id] )
 

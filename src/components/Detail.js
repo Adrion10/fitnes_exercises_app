@@ -4,7 +4,7 @@ import BadyPartImage from "../assets/icons/body-part.png";
 import TargetImage from "../assets/icons/target.png";
 import EquipmentImage from "../assets/icons/equipment.png";
 
-const Detail = () => {
+const Detail = ({ exerciseDetail }) => {
   return <div>Detail</div>;
 };
 

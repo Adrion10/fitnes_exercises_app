@@ -14,7 +14,8 @@ const ExerciseDetail = () => {
   useEffect(() =>{
     const fetchExercisesData= async()=>{
       const exerciseDbUrl='https://exercisedb.p.rapidapi.com'
-
+      const yotubeSearchUrl='https://youtube-search-and-download.p.rapidapi.com'
+  
     }
     fetchExercisesData()
 
